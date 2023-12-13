@@ -2,6 +2,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
+# Create 100 values of x between -5 and 5
+my_x_arr = np.linspace(-5, 5, 100)
+
 # Define a function
 def my_func(x_arr):
   # Initialize list to store results
@@ -16,8 +19,6 @@ def my_func(x_arr):
   return result
 
 
-# Create 100 values of x between -5 and 5
-my_x_arr = np.linspace(-5, 5, 100)
 # Evaluate equation at x
 y = my_func(my_x_arr)
 
